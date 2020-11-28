@@ -12,6 +12,9 @@
 <h5>Command : svn co URL OUTPATH</h5>
 <h5>Command (with revison) : svn co -r `revisionnumber` URL OUTPATH</h5>
 
+<h3>SVN Log – Check the revision history and changes made</h3>
+
+<h5>Command : svn log URL </h5>
 
 <h3>SVN List – Lists directory entries</h3>
 
