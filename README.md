@@ -10,6 +10,8 @@
 <h4>Desc : SVN checkout creates the working copy, from where you can do edit, delete, or add contents. You can checkout a file, directory, trunk or whole project. To checkout you should know URL of the components you want to checkout.</h4>
 
 <h5>Command : svn co URL OUTPATH</h5>
+<h5>Command (with revison) : svn co -r `revisionnumber` URL OUTPATH</h5>
+
 
 <h3>SVN List – Lists directory entries</h3>
 
@@ -21,7 +23,7 @@
 <h5><b>Variation 2 (Verbose) : svn list -v svn://url</h5>
 <h5><b>Variation 3 (Check Revisions) : svn list -r `revisionnumber` svn://url</h5>
 <h5><b>Example (Revision 2 ) : svn list -r 2 svn://url</h5>
-
+  
 
 <h3>Note : Sometimes deleted files can be recovered from revisions that is not available in the current repo. (IMPORTANT CHECK)<h3>
 
